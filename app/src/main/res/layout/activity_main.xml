@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100sp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="toSignUp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/mPink"
+            android:textSize="17sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:background="@drawable/myshape"
+            android:elevation="1dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="toLogin"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="103dp"
+            android:layout_height="133dp"
+            app:srcCompat="@drawable/kh" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="San "
+                android:textColor="@color/mBlue"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/mPink"
+                android:fontFamily="@font/poppins_bold"
+                android:text=" IBM-Calc "
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="San IBM-Calc merupakan aplikasi kalkulator IBM terpercaya dan terpopuler"
+            android:textColor="@color/mSoftGray"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

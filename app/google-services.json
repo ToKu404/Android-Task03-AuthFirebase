@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106337042541",
+    "project_id": "sanibmcalc",
+    "storage_bucket": "sanibmcalc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106337042541:android:937a069540fd2b767dff64",
+        "android_client_info": {
+          "package_name": "com.example.sanibmcalc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106337042541-s3phkns67jq77lmrr5tm790ivie1buvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjamAkI8Sqfiz-6nugfngcPKJnvxysQ_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106337042541-s3phkns67jq77lmrr5tm790ivie1buvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

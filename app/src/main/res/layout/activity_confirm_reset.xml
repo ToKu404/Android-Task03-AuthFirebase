@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30sp"
+    tools:context=".ConfirmResetActivity">
+    <ImageView
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:padding="20sp"
+        android:src="@drawable/ic_email"
+        android:background="@drawable/myshape2"
+        />
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check your mail"
+        android:textColor="@color/mBlue"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="We have sent a password recover instruction to your email."
+        android:textSize="14dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/mSoftGray" />
+    <Button
+        android:id="@+id/openEmail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myshape"
+        android:elevation="1dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Open Email App"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+
+        android:textSize="17sp"
+        app:backgroundTint="@null" />
+    <TextView
+        android:id="@+id/skip"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip, I’ll confirm later"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="14dp"
+        android:textColor="@color/mSoftGray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did not receive the email? Check your spam filter,"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="11dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/mSoftGray"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="11dp"
+            android:textColor="@color/mSoftGray"/>
+        <TextView
+            android:id="@+id/anotherEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" try another email address"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="4dp"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:textColor="@color/mPink"/>
+    </LinearLayout>
+</LinearLayout>
